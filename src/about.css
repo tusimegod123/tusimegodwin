@@ -1,0 +1,29 @@
+#first-container-about{
+background-color: black;
+
+height: 650px;
+}
+h3{
+padding-top: 2pc;
+margin-top: 60px;
+text-align: center;
+color: #c4e9e4;
+font-weight: bold;
+}
+.paragraph{
+text-align: center;
+padding: 7px;
+font-weight: bold;
+color: #c4e9e4;
+font-size: 17px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#button-contact{
+text-align: center;
+}
+
+#skill1{
+color: aqua;
+text-align: left;
+
+}
