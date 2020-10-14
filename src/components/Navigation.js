@@ -20,7 +20,7 @@ function Navigation() {
         <Navbar.Brand href="/" id="brand">
           Tg
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" id="toogle" />
 
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto" id="links"></Nav>

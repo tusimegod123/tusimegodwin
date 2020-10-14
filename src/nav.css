@@ -1,7 +1,9 @@
 #card{
 border-style: none;
 }
-
+#toogle{
+background-color: #1bd1b9;
+}
 #nav{
 background-color: rgb(32, 32, 32);
 color: #c4e9e4;
