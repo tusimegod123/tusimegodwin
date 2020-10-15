@@ -44,7 +44,7 @@ export default function About() {
           </motion.div>
         </div>
       </div>
-
+      <br></br><br></br>
       <div className="container">
         <motion.div className="row">
           <div className="col-md-12" id="next1">
@@ -55,7 +55,8 @@ export default function About() {
               id="next"
             >
               {"<"}
-            </motion.a> &nbsp;
+            </motion.a>{" "}
+            &nbsp;
             <motion.a
               whileHover={{ scale: 1.1 }}
               transition={transition}
