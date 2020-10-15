@@ -25,3 +25,10 @@ color: #1bd1b9;
 font-size: x-large;
 
 }
+#next{
+color: aqua;
+font-size: 90px;
+text-decoration: none;
+text-align: right;
+margin-top: 220px;
+}

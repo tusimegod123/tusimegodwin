@@ -4,6 +4,9 @@ import { Form, Button } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import "../about.css";
 
+
+const transition = { duration: 0.6, ease: [0.43, 0.13, 0.23, 0.96] };
+
 export default function Contact() {
   return (
     <motion.div
@@ -51,7 +54,7 @@ export default function Contact() {
 
           <motion.div
             // animate={{ x: 10 }}
-            transition={{ ease: "easeOut", duration: 5 }}
+            transition={{ ease: "easeOut", duration: 20 }}
             className="col-md-6"
             id="contact"
           >
@@ -84,6 +87,21 @@ export default function Contact() {
             </Form>
           </motion.div>
         </div>
+      </div>
+      <div className="container">
+        <motion.div className="row">
+          <div className="col-md-12" id="next11">
+            <motion.a
+              whileHover={{ scale: 1.1 }}
+              transition={transition}
+              href="/portfolio"
+              id="next"
+            >
+              {"<"}
+            </motion.a>{" "}
+           
+          </div>
+        </motion.div>
       </div>
     </motion.div>
   );
