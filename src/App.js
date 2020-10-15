@@ -6,6 +6,7 @@ import Navigation from "./components/Navigation"
 import './App.css';
 import About from './components/About';
 import Skills from './components/Skills';
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="//" component={Home} axact></Route>
             <Route path="/about" component={About}></Route>
             <Route path="/skills" component={Skills}></Route>
+            <Route path="/contactme" component={Contact}></Route>
           </Switch>
         </AnimatePresence>
       </div>
