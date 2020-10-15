@@ -25,7 +25,7 @@ export default function About() {
               and Communication engineering who chose passion as a career.
             </p>
             <p id="button-contact">
-              <Button variant="primary">Contact me</Button>
+              <Button variant="primary" href="/contactme">Contact me</Button>
             </p>
           </motion.div>
 

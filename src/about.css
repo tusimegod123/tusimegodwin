@@ -12,7 +12,7 @@ font-weight: bold;
 }
 .paragraph{
 text-align: center;
-padding: 7px;
+/* padding: 7px; */
 font-weight: bold;
 color: #c4e9e4;
 font-size: 17px;
@@ -21,9 +21,17 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 #button-contact{
 text-align: center;
 }
-
+#contact{
+margin-top: -70px;
+}
 #skill1{
 color: aqua;
 text-align: left;
 
+}
+p{
+color: aqua;
+}
+#form-label{
+color: aqua;
 }

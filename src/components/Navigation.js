@@ -22,7 +22,7 @@ function Navigation() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" id="toogle" />
 
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Collapse>
           <Nav className="mr-auto" id="links"></Nav>
 
           <Nav>
@@ -40,8 +40,9 @@ function Navigation() {
               transition={transition}
               href="/about"
               id="links-about"
+              
             >
-              About
+              About me
             </motion.a>
 
             <motion.a
@@ -52,12 +53,22 @@ function Navigation() {
             >
               Skills
             </motion.a>
-            <Nav.Link eventKey={2} href="#memes" id="links">
+            <motion.a
+              whileHover={{ scale: 1.5 }}
+              transition={transition}
+              href="/portfolio"
+              id="links-about"
+            >
               Portfolio
-            </Nav.Link>
-            <Nav.Link eventKey={2} href="#memes" id="links">
-              Contact
-            </Nav.Link>
+            </motion.a>
+            <motion.a
+              whileHover={{ scale: 1.5 }}
+              transition={transition}
+              href="/contactme"
+              id="links-about"
+            >
+              Contact me
+            </motion.a>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
