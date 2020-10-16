@@ -1,25 +1,22 @@
 import React from "react";
 import { motion } from "framer-motion";
-import {ProgressBar} from "react-bootstrap";
+import { ProgressBar } from "react-bootstrap";
 import "../about.css";
 
 const transition = { duration: 0.6, ease: [0.43, 0.13, 0.23, 0.96] };
 
 export default function Skills() {
-    const now = 85;
-    const js = 70;
-    const react = 65;
-    const git = 80;
-    const mongo = 55;
-    const node = 60;
+  const now = 85;
+  const js = 70;
+  const react = 65;
+  const git = 80;
+  const mongo = 55;
+  const node = 60;
 
-
- 
-
-//  render(progressInstance);
+  //  render(progressInstance);
   return (
     <motion.div
-      animate={{ x: 10 }}
+      animate={{ x: 5 }}
       transition={{ ease: "easeOut", duration: 3 }}
     >
       <div className="container" id="first-container-about">
@@ -62,7 +59,8 @@ export default function Skills() {
               for more details
             </p>
           </motion.div>
-          <motion.div className="col-md-6" id="skill1">
+
+          <motion.div className="col-md-6" id="skill1s">
             <h3 id="skill1">Soft Skills</h3>
             <p>Communication</p>
             <p>Critical Thinking</p>
@@ -77,6 +75,8 @@ export default function Skills() {
           </motion.div>
         </div>
       </div>
+      <br></br>
+      <br></br>
       <div className="container">
         <motion.div className="row">
           <div className="col-md-12" id="next14">

@@ -43,6 +43,10 @@ color: aqua;
 margin-top: -100px;
 text-align: right;
 }
+#skill1s{
+/* margin-top: -70px; */
+text-align: left;
+}
 #next11{
 margin-top: -80px;
 text-align: right;
@@ -52,6 +56,6 @@ margin-top: -130px;
 text-align: right;
 }
 #next14{
-/* margin-top: -10px; */
+margin-top: 100px;
 text-align: right;
 }
