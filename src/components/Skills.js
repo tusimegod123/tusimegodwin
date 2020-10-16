@@ -1,11 +1,22 @@
 import React from "react";
 import { motion } from "framer-motion";
+import {ProgressBar} from "react-bootstrap";
 import "../about.css";
 
 const transition = { duration: 0.6, ease: [0.43, 0.13, 0.23, 0.96] };
 
 export default function Skills() {
+    const now = 85;
+    const js = 70;
+    const react = 65;
+    const git = 80;
+    const mongo = 55;
+    const node = 60;
+
+
  
+
+//  render(progressInstance);
   return (
     <motion.div
       animate={{ x: 10 }}
@@ -15,12 +26,34 @@ export default function Skills() {
         <div className="row">
           <motion.div className="col-md-6" id="skill1">
             <h3 id="skill1">Tech Skills</h3>
-            <p>HTML & CSS</p>
-            <p>React Bootstrap, Bootstrap and Material ui</p>
-            <p>JavaScript</p>
-            <p>React Js</p>
-            <p>Node Js, Expresss js</p>
-            <p>Mongodb & Mysql database</p>
+            <p>
+              HTML & CSS <ProgressBar now={now} label={`${now}%`} />
+            </p>
+
+            <p>
+              React Bootstrap, Bootstrap and Material ui{" "}
+              <ProgressBar now={now} label={`${now}%`} />
+            </p>
+            <p>
+              JavaScript
+              <ProgressBar now={js} label={`${js}%`} />
+            </p>
+            <p>
+              React Js
+              <ProgressBar now={react} label={`${react}%`} />
+            </p>
+            <p>
+              Node Js, Expresss js
+              <ProgressBar now={node} label={`${node}%`} />
+            </p>
+            <p>
+              Mongodb & Mysql database
+              <ProgressBar now={mongo} label={`${mongo}%`} />
+            </p>
+            <p>
+              Github
+              <ProgressBar now={git} label={`${git}%`} />
+            </p>
             <p>
               Visit my{" "}
               <a href="https://www.linkedin.com/in/tusime-godwin-91211a84/">

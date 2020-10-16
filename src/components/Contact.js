@@ -1,13 +1,26 @@
 import React from "react";
+import * as emailjs from "emailjs-com";
 import { motion } from "framer-motion";
 import { Form, Button } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import "../about.css";
 
-
 const transition = { duration: 0.6, ease: [0.43, 0.13, 0.23, 0.96] };
 
 export default function Contact() {
+  //   const [state, setState] = useState("");
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    emailjs
+      .sendForm(
+        "service_7pgatdz",
+        "template_xg55b8e",
+        event.target,
+        "user_uzd88AsOBp8NFOwHdJAjA"
+      )
+      .then((window.location = "/sucess"))
+      .catch();
+  };
   return (
     <motion.div
       animate={{ x: 5 }}
@@ -59,27 +72,46 @@ export default function Contact() {
             id="contact"
           >
             <h3 id="skill1">Direct Message:</h3>
-            <Form>
+            <Form onSubmit={handleSubmit} className="contact-form">
               <Form.Row>
                 <Form.Group as={Col} controlId="formGridEmail">
                   <Form.Label id="form-label">Name</Form.Label>
-                  <Form.Control type="text" placeholder="Your Name" />
+                  <Form.Control
+                    type="text"
+                    placeholder="Your Name"
+                    name="name"
+                    required={true}
+                  />
                 </Form.Group>
 
                 <Form.Group as={Col} controlId="formGridPassword">
                   <Form.Label id="form-label">Email</Form.Label>
-                  <Form.Control type="email" placeholder="Your email" />
+                  <Form.Control
+                    type="email"
+                    placeholder="Your email"
+                    name="email"
+                    required={true}
+                  />
                 </Form.Group>
               </Form.Row>
 
               <Form.Group controlId="formGridAddress1">
                 <Form.Label id="form-label">Subject</Form.Label>
-                <Form.Control placeholder="Subject" />
+                <Form.Control
+                  placeholder="Subject"
+                  name="subject"
+                  required={true}
+                />
               </Form.Group>
 
               <Form.Group controlId="exampleForm.ControlTextarea1">
                 <Form.Label id="form-label">Message</Form.Label>
-                <Form.Control as="textarea" rows={3} />
+                <Form.Control
+                  as="textarea"
+                  rows={3}
+                  name="message"
+                  required={true}
+                />
               </Form.Group>
               <Button variant="primary" type="submit">
                 Submit
@@ -88,6 +120,9 @@ export default function Contact() {
           </motion.div>
         </div>
       </div>
+      <br></br>
+      <br></br>
+      <br></br>
       <div className="container">
         <motion.div className="row">
           <div className="col-md-12" id="next11">
@@ -99,7 +134,6 @@ export default function Contact() {
             >
               {"<"}
             </motion.a>{" "}
-           
           </div>
         </motion.div>
       </div>

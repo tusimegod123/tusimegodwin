@@ -8,6 +8,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Contact from "./components/Contact";
 import Portfolio from './components/Portfolio';
+import Success from './components/Success';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/skills" component={Skills}></Route>
             <Route path="/contactme" component={Contact}></Route>
             <Route path="/portfolio" component={Portfolio}></Route>
+            <Route path="/success" component={Success}></Route>
           </Switch>
         </AnimatePresence>
       </div>
