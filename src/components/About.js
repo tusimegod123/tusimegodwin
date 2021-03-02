@@ -7,7 +7,7 @@ const transition = { duration: 0.6, ease: [0.43, 0.13, 0.23, 0.96] };
 
 export default function About() {
   return (
-    <motion.div animate={{ rotate: 360 }} transition={{ duration: 2 }}>
+    <motion.div >
       <div className="container-fluid" id="first-container-about">
         <div className="row justify-content-center">
           <motion.div className="col-md-10">

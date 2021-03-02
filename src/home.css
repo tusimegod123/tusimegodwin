@@ -32,3 +32,48 @@ text-decoration: none;
 text-align: right;
 margin-top: 220px;
 }
+@media only screen and (max-width:414px){
+    #first-container{
+        
+        height: 700px;
+        /* padding: 2pc; */
+        }
+        #about-me{
+            margin-top: -110px;
+            text-align: left;
+        }
+        #about{
+            margin-top: -20px;
+        }
+        #skills{
+            margin-top: -190px;
+        }
+        #exprience{
+            color: #1bd1b9;
+            text-align: left;
+            margin-top: -15px;
+            text-decoration: underline;
+        }
+        #tech-skills{
+            margin-top: -30px;
+            text-align: left;
+            color: #1bd1b9;
+        }
+        #skill1{
+            margin-top: -20px;
+        }
+        #contact-info{
+            margin-top: 120px;
+        }
+        #direct-message{
+            text-align: left;
+        }
+        #paragraph{
+            text-align: left;
+            /* padding: 7px; */
+            font-weight: bold;
+            color: #c4e9e4;
+            font-size: 17px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+}
