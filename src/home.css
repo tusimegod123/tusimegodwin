@@ -70,7 +70,7 @@ margin-top: -55px;
 #exprience{
 /* color: #1bd1b9; */
 /* text-align: left; */
-margin-top: 20px;
+margin-top: 35px;
 text-decoration: underline;
 }
 #tech-skills{
@@ -116,4 +116,8 @@ height: 570px;
     margin-top: -20px;
     margin-left: -30px;
 }
+/* #top{
+    font-size: xx-large;
+    margin-top: -30px;
+} */
 }

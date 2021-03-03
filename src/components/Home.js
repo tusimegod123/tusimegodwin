@@ -37,7 +37,7 @@ export default function Home() {
   };
   return (
     <>
-    <ScrollToTop smooth color="#1bd1b9" />
+    <ScrollToTop smooth color="#1bd1b9" id="top" />
       <motion.div className="container" id="first-container">
         <div className="row">
           <div className="col-md-12">
@@ -97,8 +97,7 @@ export default function Home() {
               trends around the world.
             </p>
                 <p id="paragraph">
-                  I hold a Bachelors degree in Business Administration and almost
-                  done with a with a second one in Information and Technology.
+                  I hold a Bachelors degree in Business Administration and a second one in Information and Technology.
             </p>
                 <p id="paragraph">
                   Well-organized person, problem solver, & currently a{" "}
