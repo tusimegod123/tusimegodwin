@@ -41,7 +41,7 @@ export default function Home() {
         <div className="row">
           <div className="col-md-12">
             <h3 className="hhhhhhhhhhhh">
-              Hello<span role="img">👋</span>, my name is Tusime Godwin!
+              Hello,I am Tusime Godwin!
             </h3>
             <p className="ppppppppp">
               I{" "}
@@ -83,11 +83,11 @@ export default function Home() {
       {/* About me starts here */}
       <div className=" d-block d-sm-none" id="about-me">
         <motion.div className="animated bounce infinite">
-          <div className="container-fluid" id="first-container-about">
-            <div className="row justify-content-center">
+          <div className="container-fluid" id="first-container-abou">
+            <div className="row ">
               <motion.div className="col-md-10">
                 <h3 initial={{ opacity: 100 }} id="about">About me</h3>
-                <p className="paragraph">
+                <p id="paragraph">
                   I am a christian, a passionate{" "}
                   <a href="https://en.wikipedia.org/wiki/Web_developer">
                     'Web Developer'
@@ -95,11 +95,11 @@ export default function Home() {
               with a strong determination to learn and discover more about tech
               trends around the world.
             </p>
-                <p className="paragraph">
+                <p id="paragraph">
                   I hold a Bachelors degree in Business Administration and almost
                   done with a with a second one in Information and Technology.
             </p>
-                <p className="paragraph">
+                <p id="paragraph">
                   Well-organized person, problem solver, & currently a{" "}
                   <a href="https://frontendmasters.com/books/front-end-handbook/2018/what-is-a-FD.html">
                     'Front end web Developer'{" "}
@@ -107,7 +107,7 @@ export default function Home() {
               at <a href="https://www.refactory.ug/">Refactory Uganda</a> for
               the past one year.
             </p>
-                <p className="paragraph">
+                <p id="paragraph">
                   I enjoy having fun, watching soccer & movies, associating with
                   friends, and coding.
             </p>
@@ -127,8 +127,9 @@ export default function Home() {
       {/* My Skills */}
       <div className=" d-block d-sm-none"  >
         <motion.div
-          animate={{ x: 5 }}
-          transition={{ ease: "easeOut", duration: 3 }} id="skills"
+          // animate={{ x: 5 }}
+          // transition={{ ease: "easeOut", duration: 3 }} 
+          id="skills"
         >
           <div className="container" id="first-container-about">
             <div className="row">
@@ -187,22 +188,22 @@ export default function Home() {
               </motion.div>
             </div>
           </div>
-          <br></br>
-          <br></br>
+          
+         
 
         </motion.div>
       </div>
 
       {/* Contact me */}
-      <div className=" d-block d-sm-none">
+      <div className=" d-block d-sm-none" id="lets-talk">
         <motion.div
-          animate={{ x: 5 }}
-          transition={{ ease: "easeOut", duration: 3 }}
+          // animate={{ x: 5 }}
+          // transition={{ ease: "easeOut", duration: 3 }}
         >
           <div className="container">
             <div className="row">
               <motion.div className="col-md-12">
-                <h3 style={{textAlign:"left"}}>Let's Talk</h3>
+                <h3  id="let">Let's Talk</h3>
                 <p id="paragraph">
                   I am interested in new opportunities – incredibly ambitious or
                   large projects. However, if you have other requests or questions,
@@ -312,6 +313,7 @@ export default function Home() {
           </div> */}
         </motion.div>
       </div>
+    
     </>
   );
 }
