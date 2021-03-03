@@ -70,7 +70,7 @@ margin-top: -55px;
 #exprience{
 /* color: #1bd1b9; */
 /* text-align: left; */
-margin-top: 10px;
+margin-top: 20px;
 text-decoration: underline;
 }
 #tech-skills{
@@ -79,7 +79,7 @@ text-align: left;
 color: #1bd1b9;
 }
 #skill1{
-margin-top: -25px;
+margin-top: -20px;
 }
 #contact-info{
 margin-top: 120px;
@@ -106,11 +106,11 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 #first-container-abou{
 background-color: rgb(27, 27, 27);
 
-height: 550px;
+height: 570px;
 }
 #lets-talk{
     background-color: rgb(27, 27, 27);  
-    margin-top: 80px;
+    margin-top: 95px;
 }
 #let{
     margin-top: -20px;
