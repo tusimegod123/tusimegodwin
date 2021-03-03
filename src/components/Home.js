@@ -10,6 +10,7 @@ import "../home.css";
 import Skills from "./Skills"
 import * as mdb from 'mdb-ui-kit'; // lib
 
+
 // import { Link } from "react-router-dom";
 
 const transition = { duration: 0.6, ease: [0.43, 0.13, 0.23, 0.96] };
@@ -81,7 +82,7 @@ export default function Home() {
       </motion.div>
 
       {/* About me starts here */}
-      <div className=" d-block d-sm-none" id="about-me">
+      <div className=" d-block d-sm-none" uk-scrollspy="cls: uk-animation-slide-left; repeat: true" id="about-me">
         <motion.div className="animated bounce infinite">
           <div className="container-fluid" id="first-container-abou">
             <div className="row ">
@@ -125,7 +126,7 @@ export default function Home() {
       </div>
 
       {/* My Skills */}
-      <div className=" d-block d-sm-none"  >
+      <div className=" d-block d-sm-none" uk-scrollspy="cls: uk-animation-slide-right; repeat: true" >
         <motion.div
           // animate={{ x: 5 }}
           // transition={{ ease: "easeOut", duration: 3 }} 
@@ -195,7 +196,7 @@ export default function Home() {
       </div>
 
       {/* Contact me */}
-      <div className=" d-block d-sm-none" id="lets-talk">
+      <div className=" d-block d-sm-none" uk-scrollspy="cls: uk-animation-slide-left; repeat: true" id="lets-talk">
         <motion.div
           // animate={{ x: 5 }}
           // transition={{ ease: "easeOut", duration: 3 }}
@@ -313,7 +314,7 @@ export default function Home() {
           </div> */}
         </motion.div>
       </div>
-    
+     
     </>
   );
 }

@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
+import "uikit/dist/css/uikit.min.css";
+import "uikit/dist/css/uikit-core.min.css";
+import "uikit/dist/js/uikit.min.js";
+              // "./node_modules/uikit/dist/js/uikit-icons.min.js",
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
