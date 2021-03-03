@@ -21,7 +21,7 @@ export default function Skills() {
     >
       <div className="container" id="first-container-about">
         <div className="row">
-          <motion.div className="col-md-6" id="skill1">
+          <motion.div className="col-md-6" id="teq-skills">
             <h3 id="skill1">Tech Skills</h3>
             <p>
               HTML & CSS <ProgressBar now={now} label={`${now}%`} />
@@ -61,7 +61,7 @@ export default function Skills() {
           </motion.div>
 
           <motion.div className="col-md-6" id="skill1s">
-            <h3 id="skill1">Soft Skills</h3>
+            <h3 id="soft-skills">Soft Skills</h3>
             <p>Communication</p>
             <p>Critical Thinking</p>
             <p>Creativity</p>
@@ -77,7 +77,7 @@ export default function Skills() {
       </div>
       <br></br>
       <br></br>
-      <div className="container">
+      {/* <div className="container">
         <motion.div className="row">
           <div className="col-md-12" id="next14">
             <motion.a
@@ -99,7 +99,7 @@ export default function Skills() {
             </motion.a>
           </div>
         </motion.div>
-      </div>
+      </div> */}
     </motion.div>
   );
 }

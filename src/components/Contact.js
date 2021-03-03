@@ -22,6 +22,7 @@ export default function Contact() {
       .catch();
   };
   return (
+    <div id="contact-me">
     <motion.div
       animate={{ x: 5 }}
       transition={{ ease: "easeOut", duration: 3 }}
@@ -138,5 +139,6 @@ export default function Contact() {
         </motion.div>
       </div>
     </motion.div>
+    </div>
   );
 }

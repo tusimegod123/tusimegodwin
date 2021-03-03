@@ -18,7 +18,7 @@ function Navigation() {
     <div>
       <Navbar collapseOnSelect expand="lg" id="nav" fixed="top">
         <Navbar.Brand href="/" id="brand">
-          TG
+          Tusime Godwin
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" id="toogle" />
 

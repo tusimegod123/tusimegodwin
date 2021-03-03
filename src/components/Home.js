@@ -56,7 +56,7 @@ export default function Home() {
                   1000,
                   "am a Marketer by profession  👌!",
                   1000,
-                  "am a Christian 👌!",
+                  "am a God fearing person 👌!",
                   1000,
                   "am a Ugandan 👌!",
                   1000,
@@ -67,8 +67,16 @@ export default function Home() {
                 ]}
               />
             </p>
+            <div id="favorite-qoute" className=" d-none d-lg-block d-lg-none">
+            <h3 className="favoriteqoute">
+              Favorite Qoute:
+            </h3>
+            <h3 className="hhhhhhhhhh">
+             "Whatever you are, be a good one"
+            </h3>
+            </div>
           </div>
-          <div className="col-md-12 " className="d-none d-sm-block" id="next">
+          {/* <div className="col-md-12 " className="d-none d-sm-block" id="next">
             <motion.a
               whileHover={{ scale: 1.1 }}
               transition={transition}
@@ -77,7 +85,7 @@ export default function Home() {
             >
               {">"}
             </motion.a>
-          </div>
+          </div> */}
         </div>
       </motion.div>
 
@@ -89,7 +97,7 @@ export default function Home() {
               <motion.div className="col-md-10">
                 <h3 initial={{ opacity: 100 }} id="about">About me</h3>
                 <p id="paragraph">
-                  I am a christian, a passionate{" "}
+                  I  a passionate{" "}
                   <a href="https://en.wikipedia.org/wiki/Web_developer">
                     'Web Developer'
               </a>{" "}
@@ -133,7 +141,7 @@ export default function Home() {
         >
           <div className="container" id="first-container-about">
             <div className="row">
-              <motion.div className="col-md-6" id="skill1">
+              <motion.div className="col-md-6" id="">
                 <h3 id="exprience">Exprience:</h3>
                 <h3 id="tech-skills">Tech Skills</h3>
                 <p>

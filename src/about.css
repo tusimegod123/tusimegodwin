@@ -1,7 +1,7 @@
 #first-container-about{
 background-color: black;
 
-height: 650px;
+height: 868px;
 }
 h3{
 padding-top: 2pc;
@@ -32,6 +32,12 @@ margin-top: 70px;
 color: aqua;
 text-align: left;
 
+
+}
+#soft-skills{
+    color: aqua;
+    text-align: left; 
+    margin-top: 60px;  
 }
 p{
 color: aqua;
@@ -46,6 +52,10 @@ text-align: right;
 #skill1s{
 /* margin-top: -70px; */
 text-align: left;
+margin-top: 65px;
+}
+#contact-me{
+    height: 900px;
 }
 #next11{
 margin-top: -80px;
@@ -58,4 +68,44 @@ text-align: right;
 #next14{
 margin-top: 100px;
 text-align: right;
+}
+
+
+@media only screen and (max-width:414px){
+    #skill1s{
+        /* margin-top: -70px; */
+        text-align: left;
+        margin-top: -20px;
+        }
+        #first-container-about{
+            margin-top: 55px;
+        }
+       
+        #soft-skills{
+            color: aqua;
+            text-align: left; 
+            margin-top: 20px; 
+        }
+        #teq-skills{
+            margin-top: 50px;
+        }
+}
+@media only screen and (max-width:320px){
+    #skill1s{
+        /* margin-top: -70px; */
+        text-align: left;
+        margin-top: -20px;
+        }
+        #first-container-about{
+            margin-top: 55px;
+        }
+       
+        #soft-skills{
+            color: aqua;
+            text-align: left; 
+            margin-top: 5px; 
+        }
+        #teq-skills{
+            margin-top: 10px;
+        }
 }

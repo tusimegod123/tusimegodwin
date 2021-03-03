@@ -10,10 +10,11 @@ export default function About() {
     <motion.div >
       <div className="container-fluid" id="first-container-about">
         <div className="row justify-content-center">
-          <motion.div className="col-md-10">
-            <h3 initial={{ opacity: 100 }}>About me</h3>
+          <motion.div className="col-md-4">
+            {/* <h3 initial={{ opacity: 100 }}>About me</h3> */}
+            <br></br><br></br> <br></br><br></br>
             <p className="paragraph">
-              I am a christian, a passionate{" "}
+              I  a passionate{" "}
               <a href="https://en.wikipedia.org/wiki/Web_developer">
                 'Web Developer'
               </a>{" "}
@@ -21,8 +22,7 @@ export default function About() {
               trends around the world.
             </p>
             <p className="paragraph">
-              I hold a Bachelors degree in Business Administration and almost
-              done with a with a second one in Information and Technology.
+            I hold a Bachelors degree in Business Administration and a second one in Information and Technology.
             </p>
             <p className="paragraph">
               Well-organized person, problem solver, & currently a{" "}
@@ -45,7 +45,7 @@ export default function About() {
         </div>
       </div>
       <br></br><br></br>
-      <div className="container">
+      {/* <div className="container">
         <motion.div className="row">
           <div className="col-md-12" id="next1">
             <motion.a
@@ -67,7 +67,7 @@ export default function About() {
             </motion.a>
           </div>
         </motion.div>
-      </div>
+      </div> */}
     </motion.div>
   );
 }

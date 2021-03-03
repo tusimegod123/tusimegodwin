@@ -15,7 +15,7 @@ export default function Portfolio() {
             transition={{ duration: 2 }}
             className="col-md-10"
           >
-            <p className="contact">Please Kindly check this page later</p>
+            <p className="contact">I am still updating this portfolio page kidly check it later</p>
           </motion.div>
 
           <motion.div className="col-md-2"></motion.div>
