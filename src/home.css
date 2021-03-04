@@ -96,7 +96,7 @@ margin-top: -145px;
 #exprience{
 /* color: #1bd1b9; */
 /* text-align: left; */
-margin-top: 25px;
+margin-top: 35px;
 text-decoration: underline;
 }
 #tech-skills{
@@ -131,8 +131,11 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #first-container-abou{
 background-color: rgb(27, 27, 27);
-margin-top: 40px;
+margin-top: 70px;
 height: 570px;
+}
+#exprience-container{
+    margin-top: 75px;
 }
 #lets-talk{
     background-color: rgb(27, 27, 27);  

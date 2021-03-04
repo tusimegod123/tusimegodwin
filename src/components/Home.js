@@ -139,7 +139,7 @@ export default function Home() {
           // transition={{ ease: "easeOut", duration: 3 }} 
           id="skills"
         >
-          <div className="container" id="first-container-about">
+          <div className="container" id="exprience-container">
             <div className="row">
               <motion.div className="col-md-6" id="">
                 <h3 id="exprience">Exprience:</h3>
