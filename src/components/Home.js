@@ -97,11 +97,11 @@ export default function Home() {
               <motion.div className="col-md-10">
                 <h3 initial={{ opacity: 100 }} id="about">About me</h3>
                 <p id="paragraph">
-                  I  a passionate{" "}
+                  I  am a passionate{" "}
                   <a href="https://en.wikipedia.org/wiki/Web_developer">
                     'Web Developer'
               </a>{" "}
-              with a strong determination to learn and discover more about tech
+              with a strong determination to learn, work, deliver and discover more about tech
               trends around the world.
             </p>
                 <p id="paragraph">
@@ -116,8 +116,8 @@ export default function Home() {
               the past one year.
             </p>
                 <p id="paragraph">
-                  I enjoy having fun, watching soccer & movies, associating with
-                  friends, and coding.
+                Beside work, I enjoy having fun, watching soccer & movies, associating with
+              friends, After all "Life is short".
             </p>
                 <p id="button-contact">
                   <Button variant="primary" href="/contactme">
