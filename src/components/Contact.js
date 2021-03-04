@@ -27,7 +27,7 @@ export default function Contact() {
       animate={{ x: 5 }}
       transition={{ ease: "easeOut", duration: 3 }}
     >
-      <div className="container">
+      <div className="container" id="lets-talkk">
         <div className="row">
           <motion.div className="col-md-12">
             <h3>Let's Talk</h3>

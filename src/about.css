@@ -35,9 +35,9 @@ text-align: left;
 
 }
 #soft-skills{
-    color: aqua;
-    text-align: left; 
-    margin-top: 60px;  
+color: aqua;
+text-align: left; 
+margin-top: 60px;  
 }
 p{
 color: aqua;
@@ -55,7 +55,7 @@ text-align: left;
 margin-top: 65px;
 }
 #contact-me{
-    height: 900px;
+height: 900px;
 }
 #next11{
 margin-top: -80px;
@@ -72,40 +72,73 @@ text-align: right;
 
 
 @media only screen and (max-width:414px){
-    #skill1s{
-        /* margin-top: -70px; */
-        text-align: left;
-        margin-top: -20px;
-        }
-        #first-container-about{
-            margin-top: 55px;
-        }
-       
-        #soft-skills{
-            color: aqua;
-            text-align: left; 
-            margin-top: 20px; 
-        }
-        #teq-skills{
-            margin-top: 50px;
-        }
+#skill1s{
+/* margin-top: -70px; */
+text-align: left;
+margin-top: -20px;
+}
+#first-container-about{
+margin-top: -40px;
+}
+
+#soft-skills{
+color: aqua;
+text-align: left; 
+margin-top: 20px; 
+}
+#teq-skills{
+margin-top: 50px;
+}
+#contact-me{
+height: 1102px;
+}
+#contact{
+margin-top: 0px;
+}
+.paragraph{
+text-align: left;
+}
+}
+@media only screen and (max-width:375px){
+#contact{
+margin-top: 0px;
+}
+#contact-me{
+height: 1102px;
+}
+.paragraph{
+text-align: left;
+}
+#first-container-about{
+    margin-top: -40px;
+    
+    }
 }
 @media only screen and (max-width:320px){
-    #skill1s{
-        /* margin-top: -70px; */
-        text-align: left;
-        margin-top: -20px;
-        }
-        #first-container-about{
-            margin-top: 55px;
-        }
-       
-        #soft-skills{
-            color: aqua;
-            text-align: left; 
-            margin-top: 5px; 
-        }
-        #teq-skills{
-            margin-top: 10px;
-        }
+#skill1s{
+/* margin-top: -70px; */
+text-align: left;
+margin-top: -20px;
+}
+#first-container-about{
+margin-top: -40px;
+
+}
+#contact-me{
+height: 1102px;
+}
+#soft-skills{
+color: aqua;
+text-align: left; 
+margin-top: 5px; 
+}
+#teq-skills{
+margin-top: 10px;
+}
+#contact{
+margin-top: 0px;
+}
+.paragraph{
+text-align: left;
+}
 }
