@@ -251,7 +251,7 @@ export default function Home() {
                 // animate={{ x: 10 }}
                 transition={{ ease: "easeOut", duration: 20 }}
                 className="col-md-6"
-                id="contact"
+                id="contact-messege"
               >
                 <h3 id="direct-message">Direct Message:</h3>
                 <Form onSubmit={handleSubmit} className="contact-form">

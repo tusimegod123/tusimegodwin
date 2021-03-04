@@ -139,16 +139,18 @@ height: 570px;
 }
 #lets-talk{
     background-color: rgb(27, 27, 27);  
-    margin-top: 50px;
+    margin-top: 10px;
 }
 #let{
     margin-top: -20px;
     margin-left: -30px;
 }
-/* #top{
-    font-size: xx-large;
+#contact-info{
     margin-top: -30px;
-} */
+    }
+    #contact-messege{
+        margin-top: -90px;
+    }
 }
 @media only screen and (max-width:375px){
     #first-container-abou{
@@ -162,19 +164,25 @@ height: 570px;
             #exprience{
                 /* color: #1bd1b9; */
                 /* text-align: left; */
-                margin-top: -45px;
+                margin-top: -70px;
                 text-decoration: underline;
                 }
                 #lets-talk{
                     background-color: rgb(27, 27, 27);  
                     margin-top: -45px;
                 }
+                #contact-info{
+                    margin-top: -30px;
+                    }
+                    #contact-messege{
+                        margin-top: -90px;
+                    }
 }
 @media only screen and (max-width:320px){
     #first-container-abou{
         background-color: rgb(27, 27, 27);
         margin-top: 70px;
-        height: 600px;
+        height: 660px;
         }
         #skills{
             margin-top: -45px;
@@ -182,14 +190,20 @@ height: 570px;
             #exprience{
                 /* color: #1bd1b9; */
                 /* text-align: left; */
-                margin-top: -45px;
+                margin-top: -80px;
                 text-decoration: underline;
                 }
                 #lets-talk{
                     background-color: rgb(27, 27, 27);  
-                    margin-top: -45px;
+                    margin-top: -15px;
                 }
                 #paragraph{
                     text-align: left;
                 }
+                #contact-info{
+                    margin-top: -30px;
+                    }
+                    #contact-messege{
+                        margin-top: -90px;
+                    }
 }
